@@ -1,0 +1,24 @@
+/* Add all your styles here */
+.banner{
+ background-image : url(../images/saidul.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: bottom;
+ padding: 50px 0;
+ position: relative;
+ z-index: 9;
+}
+.banner-text{
+
+}
+.banner::after{
+ content: '';
+ position : absolute;
+ teft: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ background : rgba(0,0,0,.3);
+ z-index: -1;
+
+}
